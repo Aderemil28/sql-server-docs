@@ -11,7 +11,7 @@ checklist, and the Microsoft Learn, MSSQLTips and SQLShack articles behind it.
 
 | Phase | What it covers | Runbooks |
 |---|---|---|
-| **1. [Install](docs/install/)** | Pre-install checks, Setup, service accounts, patching | [Install SQL Server 2022 (standalone instance)](docs/install/install-sql-server-2022.md) |
+| **1. [Install](docs/install/)** | Pre-install checks, Setup, service accounts, patching, upgrades | [Install SQL Server 2022 (standalone instance)](docs/install/install-sql-server-2022.md)<br>[In-place upgrade: SQL Server 2019 to 2022](docs/install/upgrade-sql-server-2019-to-2022.md) |
 | **2. [Configure](docs/configure/)** | Memory, MAXDOP, tempdb, defaults, error logs, alerts | [Post-install configuration baseline](docs/configure/post-install-baseline.md) |
 | **3. [Provision](docs/provision/)** | Databases, logins, security, connections between instances | [Create a linked server](docs/provision/linked-server.md) |
 | **4. [Setup](docs/setup/)** | HA/DR, backups, maintenance, monitoring, Agent jobs | Coming next |
