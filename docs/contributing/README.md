@@ -28,6 +28,7 @@ You can do all of this in the browser: open a file on GitHub and click the penci
 |---|---|
 | Draft | Written, not yet run end to end |
 | Reviewed | Read and checked by a second DBA |
+| Tested on Dev | Run for real on a Dev server; the results are in the runbook |
 | Tested in lab | Every step run on a lab build, with screenshots |
 
 ## Sources

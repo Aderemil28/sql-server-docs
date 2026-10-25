@@ -8,5 +8,6 @@ patching to the current cumulative update. Also in-place version upgrades.
 |---|---|
 | [Install SQL Server 2022 (standalone instance)](install-sql-server-2022.md) | Draft |
 | [In-place upgrade: SQL Server 2019 to 2022 (standalone instance)](upgrade-sql-server-2019-to-2022.md) | Draft |
+| [Upgrade SSMS 21 / 22 in place (Visual Studio Installer)](upgrade-ssms-22.md) | Tested on Dev |
 
 **Planned:** rolling upgrade of an Always On availability group, unattended install from a configuration file, installing a named instance with a static port, applying a cumulative update to an Always On pair.
