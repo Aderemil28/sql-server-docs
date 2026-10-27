@@ -3,7 +3,9 @@
 Making the instance resilient and maintainable: high availability and disaster
 recovery, backups, maintenance, monitoring and alerting.
 
-No runbooks published in this phase yet.
+| Runbook | Status |
+|---|---|
+| [Capture which applications connect to each database](capture-application-connections.md) | Draft |
 
 **Planned:**
 

@@ -14,7 +14,7 @@ checklist, and the Microsoft Learn, MSSQLTips and SQLShack articles behind it.
 | **1. [Install](docs/install/)** | Pre-install checks, Setup, service accounts, patching, upgrades | [Install SQL Server 2022 (standalone instance)](docs/install/install-sql-server-2022.md)<br>[In-place upgrade: SQL Server 2019 to 2022](docs/install/upgrade-sql-server-2019-to-2022.md)<br>[Upgrade SSMS 21 / 22 in place](docs/install/upgrade-ssms-22.md) |
 | **2. [Configure](docs/configure/)** | Memory, MAXDOP, tempdb, defaults, error logs, alerts | [Post-install configuration baseline](docs/configure/post-install-baseline.md) |
 | **3. [Provision](docs/provision/)** | Databases, logins, security, connections between instances | [Create a linked server](docs/provision/linked-server.md)<br>[Refresh a non-production database](docs/provision/database-refresh.md) |
-| **4. [Setup](docs/setup/)** | HA/DR, backups, maintenance, monitoring, Agent jobs | Coming next |
+| **4. [Setup](docs/setup/)** | HA/DR, backups, maintenance, monitoring, Agent jobs | [Capture which applications connect to each database](docs/setup/capture-application-connections.md) |
 | **5. [Validate](docs/validate/)** | Health checks and sign-off before handover | [New instance validation and sign-off](docs/validate/new-instance-validation.md)<br>[Find when an instance was upgraded](docs/validate/find-instance-upgrade-history.md) |
 
 ## How to use a runbook
