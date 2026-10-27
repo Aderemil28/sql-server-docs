@@ -6,5 +6,6 @@ patch or failover.
 | Runbook | Status |
 |---|---|
 | [New instance validation and sign-off](new-instance-validation.md) | Draft |
+| [Find when an instance was upgraded, without the change ticket](find-instance-upgrade-history.md) | Draft |
 
 **Planned:** post-patching validation, post-failover validation for an availability group, restore test checklist.
