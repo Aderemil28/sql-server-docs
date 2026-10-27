@@ -187,7 +187,7 @@ robocopy \\backupshare\SQLRefresh X:\SQLRefresh AppDB_FULL_20261024.bak /J /R:3 
 echo Exit code: %ERRORLEVEL%
 ```
 
-Exit codes 0 to 7 are success; 8 or higher means files failed to copy. The toolkit's [Copy-BackupFiles.ps1](https://github.com/Aderemil28/MySqlScripts/blob/main/robocopy/Copy-BackupFiles.ps1) wraps this with the exit-code check.
+Exit codes 0 to 7 are success; 8 or higher means files failed to copy. The toolkit's [Copy-BackupFiles.ps1](https://github.com/Aderemil28/MySqlScripts/blob/main/robocopy/Copy-BackupFiles.ps1) wraps this with the exit-code check. For many databases at once, use [Copy refresh backups in parallel batches](copy-refresh-backups-in-batches.md).
 
 Then check the file on TSTSQL01 and note the logical file names for Step 8:
 
