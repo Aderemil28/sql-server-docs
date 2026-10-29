@@ -6,6 +6,7 @@ recovery, backups, maintenance, monitoring and alerting.
 | Runbook | Status |
 |---|---|
 | [Capture which applications connect to each database](capture-application-connections.md) | Draft |
+| [Move scripts and Agent jobs from SQLPS to the SqlServer module](migrate-sqlps-to-sqlserver-module.md) | Draft |
 
 **Planned:**
 
