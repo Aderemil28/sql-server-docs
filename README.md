@@ -11,7 +11,7 @@ checklist, and the Microsoft Learn, MSSQLTips and SQLShack articles behind it.
 
 | Phase | What it covers | Runbooks |
 |---|---|---|
-| **1. [Install](docs/install/)** | Pre-install checks, Setup, service accounts, patching, upgrades | [Install SQL Server 2022 (standalone instance)](docs/install/install-sql-server-2022.md)<br>[In-place upgrade: SQL Server 2019 to 2022](docs/install/upgrade-sql-server-2019-to-2022.md)<br>[Upgrade SSMS 21 / 22 in place](docs/install/upgrade-ssms-22.md) |
+| **1. [Install](docs/install/)** | Pre-install checks, Setup, service accounts, patching, upgrades | [Install SQL Server 2022 (standalone instance)](docs/install/install-sql-server-2022.md)<br>[In-place upgrade: SQL Server 2019 to 2022](docs/install/upgrade-sql-server-2019-to-2022.md)<br>[Upgrade SSMS 21 / 22 in place](docs/install/upgrade-ssms-22.md)<br>[Patch an AG or distributed AG in rolling order](docs/install/patch-ag-dag-rolling.md) |
 | **2. [Configure](docs/configure/)** | Memory, MAXDOP, tempdb, defaults, error logs, alerts | [Post-install configuration baseline](docs/configure/post-install-baseline.md) |
 | **3. [Provision](docs/provision/)** | Databases, logins, security, connections between instances | [Create a linked server](docs/provision/linked-server.md)<br>[Refresh a non-production database](docs/provision/database-refresh.md)<br>[Copy refresh backups in batches](docs/provision/copy-refresh-backups-in-batches.md) |
 | **4. [Setup](docs/setup/)** | HA/DR, backups, maintenance, monitoring, Agent jobs | [Capture which applications connect to each database](docs/setup/capture-application-connections.md)<br>[Move scripts and Agent jobs from SQLPS to the SqlServer module](docs/setup/migrate-sqlps-to-sqlserver-module.md) |
